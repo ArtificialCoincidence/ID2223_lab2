@@ -20,8 +20,8 @@ steps:
 5. run "Training"
 6. run "Gradio"
 # Note:
-steps1,2,3 should run together (one right after one), steps4,5 should run together (one right after one).
-If lose GPU runtime in step5, should run step4 first next time connected to GPU.
+steps1,2,3 should run together (one right after one), steps4,5 should run together (one right after one).\n
+If lose GPU runtime in step5, should run step4 first next time connected to GPU.\n
 We suggest run steps1,2,3 first, disconnect and delete the run time, and then run steps4,5,6 to avoid running crash due to GPU RAM exceeded/not enough space in disk.
 # Risk of running crash due to GPU RAM exceeded/not enough space in disk: None(if there is enough space in google drive: about 50G).
 To avoid this kind of crash from happening:
